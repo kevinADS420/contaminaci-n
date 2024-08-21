@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Helvetica ;
+}
+
+.container{
+    border: solid black;
+    margin: 20px;
+    text-align: justify;
+    padding: 10px;
+    background-image:url('img/papel.jpg');
+    gap: 30px;
+}
+
+.container-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagen{
+    width: 400px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+img{
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+
+
+.container-Luminica{
+    display: flex;
+    gap: 2rem;
+
+    .texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .conceptos{
+        display: flex;
+        gap: 20px;
+
+        .causas{
+            display: flex;
+            flex-direction: column;
+            max-width: 200px;
+            gap: 10px;
+        }
+    }
+
+}
+
+
+
+.termica{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+
+    h3{
+        margin: 10px;
+    }
+
+    p{
+        margin: 5px;
+    }
+}
+
+h2{
+    padding:20px ;
+}
+
+.container-termica{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+.conceptoOne{
+    padding-top: 90px;
+}
+
+
+.radiactiva{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+
+    h3{
+        margin: 10px;
+    }
+
+    p{
+        margin: 5px;
+    }
+}
+
+.container-radiactiva {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+
+.suelo{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+
+    h3{
+        margin: 10px;
+    }
+
+    p{
+        margin: 5px;
+    }
+}
+
+.container-suelo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px
+}
+
+.agua{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+
+    h3{
+        margin: 10px;
+    }
+
+    p{
+        margin: 5px;
+    }
+}
+
+.container-agua{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px
+}
+
+.aire{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+
+    h3{
+        margin: 10px;
+    }
+
+    p{
+        margin: 5px;
+    }
+}
+
+.container-aire{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px
+}
+
+
+
+
+
+
+
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        display: block;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .container .imagen,
+    .container .texto,
+    .container .card {
+        max-width: 100%;
+        flex: none;
+        margin-bottom: 20px;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+
+    h1, h2, h3 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1em;
+        text-align: justify;
+    }
+}
